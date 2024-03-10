@@ -1,0 +1,10 @@
+Author: Shafin Alam
+
+In order to compile my lab simply run make at the command line.
+This should create the shell executable for you. 
+To actually run the compiled program, simply run the name shell in the command line, and the program should run; prompting you with its own "Command->".
+At this point you can enter in your own commands to test the simple UNIX shell. 
+When attempting to find the history list, it will prompt a new "Command->". On this line the user may enter 'ctrl + C' for a history list during their current run of the shell. After doing this, they may also input 'r' to redo the last command. Currently 'r' only works after the user has inputted 'ctrl + c'.
+After entering any number of commands, they should be saved into a file called <your-cse-userid>.history. In this zip it will probably name it alam118.history, as I have hardcoded that name for the history file. 
+It should save them in real time, and you should be able to access it with a new run of the shell, with a new line in between runs. 
+To exit the shell simply hit control + d on your keyboard.
